@@ -135,3 +135,31 @@ section{
 	list-style-type: none;
 	margin: 5px 0;
 }
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(0,0,0,0.3);
+	height: 100px;
+}
+.footer-contacts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer-links{
+	display: flex;
+}
+.footer-links li{
+	list-style-type: none;
+}
+.footer-links li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin: 0 3px;
+}
+.footer-links li:hover a{
+	color: white;
+}
