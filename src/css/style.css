@@ -20,7 +20,7 @@ header, main, footer{
 }
 .header-nav{
 	height: 70px;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.3);
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -53,6 +53,9 @@ header, main, footer{
 .header-info{
 	margin: 100px 0px 0px 50px;
 }
+.header-info h1{
+	font-size: 40px;
+}
 .header-info ul{
 	display: flex;
 }
@@ -76,6 +79,19 @@ header, main, footer{
 .header-info ul li:hover a{
 	background-color: #000;
 	color: white;
+}
+main{
+	margin: 50px 0px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap:40px;
+}
+.subject{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 40px;
+	border-right: 1px dashed black;
 }
 
 .onscroll{
